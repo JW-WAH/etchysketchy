@@ -1,0 +1,25 @@
+body{
+    justify-items: center;
+}
+.container1{
+    height:500px;
+    width: 500px;
+    flex-direction: row;
+    display:flex;
+    border: solid;
+    border-width: 1px;
+}
+.container2,.container3{
+    display:flex;
+    border: solid;
+    border-width: 1px;
+}
+
+.container2{
+    flex-direction: column;
+    flex: 1;
+    border:0;
+}
+.container3{
+    flex: 1;
+}
